@@ -1,0 +1,188 @@
+<aiml version="1.0">
+
+    <!-- Greetings and Politeness -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How are you?</template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEY *</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm functioning within normal parameters, thanks for asking.</template>
+    </category>
+
+    <category>
+        <pattern>I AM FINE</pattern>
+        <template>That's good to know. What would you like to discuss about?</template>
+    </category>
+
+    <category>
+        <pattern>I AM GOOD</pattern>
+        <template>That's good to know. What would you like to discuss today?</template>
+    </category>
+
+    <category>
+        <pattern>RECOMMEND A GAME TO PLAY</pattern>
+        <template>What type of game are you interested in playing? Adventure, strategy, or something else?</template>
+    </category>
+
+    <category>
+        <pattern>CAN YOU SUGGEST SOME CURRENTLY POPULAR AND ENGAGING GAMES?</pattern>
+        <template>Some of the most interesting games right now include league of legends,csgo,minecraft and fifa. Have you played any of these?</template>
+    </category>
+
+
+    <category>
+        <pattern>DO YOU PLAY LEAGUE?</pattern>
+        <template>No, I'm just an AI chatbot and I don't have the ability to play games. But I can certainly give you some information about the game if you'd like!</template>
+    </category>
+
+    <category>
+        <pattern>HOW TO BECOME BETTER IN LEAGUE?</pattern>
+        <template>Sure, some tips for winning in league of legends is stay back farm the minions and communicate with your team well. Good luck!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT GAME DO YOU PLAY?</pattern>
+        <template>As an AI chatbot, I don't have personal preferences.</template>
+    </category>
+
+    <category>
+        <pattern>IS ONLINE POKER AN ONLINE VIDEO GAME?</pattern>
+        <template>Online poker is not an online video game.But if you play online poker be responsible and play with safety</template>
+    </category>
+
+    <category>
+        <pattern>WHAT'S THE DIFFERENCE BETWEEN League and AND CSGO?</pattern>
+        <template>The main difference between League of legends and CSGO is that in the first one you pick your champion to play and in CSGO you are using guns to eliminate the enemy team. Is there anything else you'd like to know about these games?</template>
+    </category>
+
+    <category>
+        <pattern>IS CHEATING OKAY?</pattern>
+        <template>I'm sorry, but I don't encourage cheating in games. It's more satisfying to win fair and square!</template>
+    </category>
+
+    <category>
+        <pattern>CAN YOU PLAY CSGO WITH ME?</pattern>
+        <template>As an AI chatbot, I don't have the ability to play games with you. But I can certainly provide information or recommendations about games!</template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE THE UPCOMING RELEASES IN THE GAMING INDUSTRY?</pattern>
+        <template>Some of the upcoming releases in the gaming industry include justice league,WWE 2K23 and Diablo IV</template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>Bye! nice talking to you. You take care now.</template>
+    </category>
+
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE NOW</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <template>Okay then.
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EXIT</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>THANKS</pattern>
+        <template>You are welcome.</template>
+    </category>
+
+<category>
+        <pattern>THANKS *</pattern>
+        <template>You are welcome.</template>
+    </category>
+
+
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* THANK YOU</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+<category>
+        <pattern>THANK YOU *</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>CHEERS</pattern>
+        <template>Sure mate.</template>
+    </category>
+
+    <category>
+        <pattern>CHEERS *</pattern>
+        <template>Sure mate.</template>
+    </category>
+
+</aiml>

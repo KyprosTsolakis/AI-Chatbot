@@ -1,0 +1,15 @@
+RPG(x) | FPS(x) | Strategy(x) -> VideoGame(x)
+
+RPG(x) -> !FPS(x) & !Strategy(x)
+FPS(x) -> Strategy(x)
+
+MMORPG(x) | ActionRPG(x) -> RPG(x)
+Shooter(x) -> FPS(x)
+RealTimeStrategy(x) | TurnBasedStrategy(x) -> Strategy(x)
+
+MMORPG(x) -> ~ActionRPG(x)
+RealTimeStrategy(x) -> ~TurnBasedStrategy(x)
+
+RPG(WorldOfWarcraft)
+RPG(Diablo)
+FPS(CounterStrike)
